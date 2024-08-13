@@ -1,0 +1,68 @@
+/* body {
+  margin: 0; /* Remove default margin 
+padding: 0; /* Remove default padding 
+  width: 200px;
+  height: 150px;
+  background-color: rgb(27, 24, 24);
+  background-position: 12px;
+  text-decoration: solid;
+  display: flexbox;
+  justify-content: last baseline;
+}
+
+p {
+  display: inline-flex;
+  margin: auto; /* Centered the paragraph horizontally 
+  font-size: 17px;
+  color: green;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid lightgreen;
+  padding: 10px;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 150px;
+  /* background-color: rgb(155, 15, 210); */
+  background-image: url("image.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-decoration: solid;
+  display: flexbox;
+  justify-content: last baseline;
+}
+
+.joke-container {
+  border: 2px solid lightgreen;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#jokeElement {
+  font-size: 18px;
+  flex-grow: 1; /* Ensures the joke text takes up available space */
+  margin-bottom: 20px; /* Optional spacing between joke and button */
+}
+
+#nextJokeBtn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px; /* Approximate oval shape */
+}
